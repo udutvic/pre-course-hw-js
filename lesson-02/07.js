@@ -13,7 +13,6 @@ let passportMarried2 = {
     address: { ...passportMarried.address }
 };
 
+console.log(JSON.stringify(passportMarried));
 
-console.log(passportMarried);
-
-console.log(passportMarried2);
+console.log(JSON.stringify(passportMarried2));
